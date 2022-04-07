@@ -20,12 +20,15 @@
 
 자바의 모든 소스 코드는 먼저 `.java` 확장자로 끝나는 텍스트 파일로 작성된다. 
 그 다음 이 소스 파일들은 `.class`파일로 `javac` 컴파일러가 컴파일한다. `.class` 파일에는 프로세서 고유  코드를 포함하지 않는다. 대신에 *바이트 코드*가 포함되어 있다. 즉, ` Java Virtual Machine1 (Java VM)`의 기계어이다. 자바 실행 도구가 JVM의 인스턴스로 애플리케이션을 실행한다. 
-![소프트웨어 개발 과정](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-compiler.gif)
+
+<div>![소프트웨어 개발 과정](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-compiler.gif)</div>
 
 Java VM은 다양한 운영 시스템에 사용가능하므로, 같은 `.class` 파일을 Microsoft windows, Solaris™ Operating System (Solaris OS), Linux, or Mac OS 에서 실행할 수 있다. [Java SE HotSpot at a Glance](https://www.oracle.com/java/technologies/javase/javase-core-technologies-apis.html)와 같은 일부 가상 머신은 런타임에 추가 기능을 수행해 기능을 향상시킨다. 여기에 성능 병목 형상 찾기와 자주 사용하는 코드 섹션 리컴파일(네이티브 코드로) 와 같은 다양한 작업들이 포함된다.
 
+<div>
 ![예시2](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 (Java VM을 통해 동일한 애플리케이션을 여러 플랫폼에서 실행할 수 있다.)
+</div>
 
 ### 자바 플랫폼
 
@@ -39,8 +42,10 @@ Java VM은 다양한 운영 시스템에 사용가능하므로, 같은 `.class` 
 
 API는 많은 유용한 기능을 제공하는 기성 소프트웨어 구성요소의 거대한 모음이다. 그것은 연관된 클래스와 인터페이스들의 라이브러리로 그룹화된다. 이러한 라이브러리는 패키지라고 한다. 다음 섹션인 [자바 기술은 무엇을 할 수 있는가?](https://docs.oracle.com/javase/tutorial/getStarted/intro/cando.html) API에서 제공하는 일부 기능을 강조 한다.
 
+<div>
 ![예시3](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
 API와 자바 가상머신은 기본 하드웨어로부터 프로그램을 격리한다.
+</div>
 
 독립적인 구성 환경으로, 자바 플랫폼은 네이티브 코드보다 약간 느릴수 있다. 하지만, 컴파일러와 가상 머신 기술의 발전으로 위협적인 이식성 없이 네이티브 코드와 가까운 성능을 가져온다.
 
